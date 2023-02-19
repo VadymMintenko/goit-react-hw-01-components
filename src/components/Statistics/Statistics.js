@@ -3,7 +3,7 @@ import {
   StatisticsList,
   StatisticsItem,
   StatisticsSection,
-} from './Styles/Statistics.styled';
+} from './Statistics.styled';
 
 export const Statistics = ({ stats, title = 'UPLOAD STATS' }) => {
   return (

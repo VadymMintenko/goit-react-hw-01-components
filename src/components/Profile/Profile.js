@@ -1,11 +1,5 @@
 import PropTypes from 'prop-types';
-import {
-  Container,
-  AboutUser,
-  List,
-  Active,
-  ListItem,
-} from './Styles/Profile.styled';
+import { Container, AboutUser, List, Active, ListItem } from './Profile.styled';
 
 export const Profile = ({
   item: {

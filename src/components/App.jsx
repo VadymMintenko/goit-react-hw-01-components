@@ -1,9 +1,9 @@
-import { Profile } from './Profile';
-import { Statistics } from './Statistics';
-import { FriendsList } from './FriendList';
-import { TransactionHistory } from './TransactionHistory';
-import { GlobalStyle } from './Styles/GlobalStyle';
-import { Layout } from './Styles/Layout';
+import { Profile } from './Profile/Profile';
+import { Statistics } from './Statistics/Statistics';
+import { FriendsList } from './Friends/FriendList';
+import { TransactionHistory } from './Transactions/TransactionHistory';
+import { GlobalStyle } from '../GlobalStyle';
+import { Layout } from '../Layout';
 import user from '../user.json';
 import data from '../data.json';
 import friends from '../friends.json';
