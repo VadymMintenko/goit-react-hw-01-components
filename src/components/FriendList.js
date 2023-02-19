@@ -4,7 +4,7 @@ export const FriendsList = ({ friends }) => {
   return (
     <ul>
       {friends.map(element => {
-        <FriendListItem item={element} />;
+        return <FriendListItem item={element} />;
       })}
     </ul>
   );
