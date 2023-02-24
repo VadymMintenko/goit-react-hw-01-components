@@ -5,10 +5,11 @@ import {
   StatisticsSection,
 } from './Statistics.styled';
 
-export const Statistics = ({ stats, title = 'UPLOAD STATS' }) => {
+export const Statistics = ({ stats, title }) => {
   return (
     <StatisticsSection>
-      <h2 className="title">{title}</h2>
+      {title && <h2 className="title">{title}</h2>}
+
       <StatisticsList>
         {stats.map(element => {
           return (
